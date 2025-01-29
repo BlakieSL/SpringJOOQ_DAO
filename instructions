@@ -1,0 +1,11 @@
+1.  ./gradlew buildJOOQImage
+2.  ./gradlew startJOOQContainer
+3.  ./gradlew waitForJOOQDB
+4.  ./gradlew generateJooq
+
+5. The connection info:
+host:       localhost
+port:       3308
+user:       root
+password:   mainpass
+db:         example

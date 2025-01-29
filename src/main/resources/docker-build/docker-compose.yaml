@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  db:
+    image: jooq-mysql-db:latest
+    container_name: mysql-container
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: mainpass
+      MYSQL_DATABASE: example
+    ports:
+      - "3308:3306"
